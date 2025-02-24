@@ -1,0 +1,99 @@
+body{
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(empty-wooden-table-blurred-restaurant-600nw-2478923883.webp);
+    background-size: cover;
+}
+
+header{
+    background-color: rgba(0,0,0,0.7);
+    color: rgb(163, 153, 12);
+    padding: 150px;
+}
+
+.logo{
+    color: #bdcf16;
+    box-shadow: 0px 0px 100px ;
+    border-radius: 50px;
+    width: 300px;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    padding: 20px;
+    color: rgb(234, 244, 246);
+}
+
+.menu-item{
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    background: rgb(130, 74, 74);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(124, 45, 45, 0.1);
+    font-size: large;
+    
+}
+
+.menu-item img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+form input, form textarea{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 40%;
+    border-radius: 15px;
+    border-color: rgb(152, 138, 166);  
+    background-color: rgb(242, 226, 226);  
+    font-size: large;
+    
+}
+
+button{
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    background: rgb(37, 97, 37);
+    color: rgb(246, 245, 245);
+    border: navajowhite;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btn{
+    display: inline-block;
+    background-color: #0c404e;
+    color: white;
+    padding: 12px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: transform 0.3sease-in-out;
+    box-shadow: 0px 0px 5px ;
+    cursor: pointer;
+    transform: scale(1.1);
+}
